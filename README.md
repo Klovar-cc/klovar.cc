@@ -1,10 +1,9 @@
 # klovar.cc
 
-Redirect-only site. Sends all `klovar.cc` traffic to **https://klovar-edits.com**.
+Klovar's personal site.
 
-Hosted on GitHub Pages. The redirect happens client-side via `index.html`
-(`<meta http-equiv="refresh">` + `window.location.replace`), with `404.html`
-catching any sub-paths.
+Hosted on GitHub Pages. `index.html` is the landing page. `404.html` is a simple
+not-found page for unknown paths. `.nojekyll` disables Jekyll processing.
 
 ## Setup
 
